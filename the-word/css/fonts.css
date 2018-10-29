@@ -1,0 +1,63 @@
+/*THE WORD WEBFONT DEFINITIONS */
+/* NIMBUS SANS EXTENDED! */
+/* Nimbus Sans Extended */
+@font-face {
+  font-family: 'nimbus-sans-regular-extended';
+  src: url('../fonts/Nimbus-Sans-Extended.otf' format('opentype'));
+  font-weight: 300;
+  font-style: normal;
+  font-stretch: normal;
+}
+
+/* Nimbus Sans Extended Light */
+@font-face {
+    font-family: 'nimbus-sans-light-extended';
+  src: url('../fonts/Nimbus-Sans-Light-Extended.otf') format('opentype');
+  font-weight: 100;
+  font-style: normal;
+  font-stretch: normal;
+}
+
+/* Nimbus Sans Extended Bold */
+@font-face {
+font-family: 'nimbus-sans-bold-extended';
+  src: url('../fonts/Nimbus-Sans-Bold-Extended.otf') format('opentype');
+  font-weight: 600;
+  font-style: normal;
+  font-stretch: normal;
+}
+
+/* Nimbus Sans Extended Black */
+@font-face {
+font-family: 'nimbus-sans-black-extended';
+  src: url('/fonts/Nimbus-Sans-Black-Extended.otf') format('opentype');
+  font-weight:  900;
+  font-style:   normal;
+  font-stretch: normal;
+}
+
+/* STYLING */
+
+.n100 {
+    font-family: 'nimbus-sans-light-extended', sans-serif;
+    font-weight: normal;
+    font-style: normal;
+}
+
+.n300 {
+    font-family: 'nimbus-sans-regular-extended', sans-serif;
+    font-weight: 300;
+    font-style: normal;
+}
+
+.n600 {
+    font-family: 'nimbus-sans-bold-extended', sans-serif;
+    font-weight: 600;
+    font-style: normal;
+}
+
+.n900 {
+    font-family: 'nimbus-sans-black-extended', sans-serif;
+    font-weight: 900;
+    font-style: normal;
+}
